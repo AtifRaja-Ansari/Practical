@@ -1,0 +1,22 @@
+package demo;
+
+public class Squarestatic {
+	/*int a =20;//non static variable/dara member
+	static int square(int x) {// static method
+		return x*x;
+	}
+	public static void main(String[]args) {
+		//int a =20;
+		int result=Squarestatic.square(2);
+		System.out.println(result);
+		//System.out.println(a);
+	}
+}*/
+
+//static block
+	static{
+		System.out.println("static block");}
+	public static void main(String[] args) {
+		System.out.println("main method");
+		}
+	}
