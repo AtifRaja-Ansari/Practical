@@ -1,0 +1,18 @@
+package demo;
+//Method Overloading - same name method with different arguments
+//two ways we can overload the methods
+//1st way(by changing arguments;
+
+public class MethodOverloading {
+	static int sum(int a, int b) {
+		return a +b;
+	}
+		static int sum(int a, int b,int c) {
+			return a + b + c;
+		}
+		public static void main(String[] args) {
+			System.out.println(MethodOverloading.sum(5, 10));
+			System.out.println(MethodOverloading.sum(5, 10, 11));
+
+		}
+}
